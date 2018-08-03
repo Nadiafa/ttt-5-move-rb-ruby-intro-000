@@ -13,6 +13,7 @@ def input_to_index(position)
   return indexed_position - 1
 end
 
-def move(board, board_index, player_character="X")
+def move(board, index, player_character="X")
+  board[index] = player_character
 
 end
